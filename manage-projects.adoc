@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: manage-projects.html 
+keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
+summary: Gerencie instâncias do Microsoft SQL Server na fábrica de cargas de trabalho para bancos de dados. 
+---
+= Gerencie projetos Builders
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode gerenciar projetos de construtores para controlar como seu código e artefatos são gerenciados para cada projeto na fábrica de carga de trabalho do BlueXP  para construtores.
+
+
+
+== Crie um projeto
+
+Você pode criar um novo projeto Builders para que você possa aproveitar os recursos de proteção de dados do seu sistema de arquivos do Amazon FSX for NetApp ONTAP para seu código e artefatos.
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No bloco Builders, selecione *Create project*.
+. Na página criar projeto, forneça o seguinte:
++
+.. *Nome do projeto*: Insira um nome para o projeto.
+.. *Descrição*: Insira uma descrição para o projeto.
+.. *Filesystem*: Forneça o seguinte:
++
+... *Credenciais*: Selecione as credenciais da Amazon AWS a serem usadas. Os construtores usam essas credenciais para descobrir os sistemas de arquivos do FSX for ONTAP que você pode usar com este projeto e criar clones e snapshots de projetos.
+... *Região*: Selecione a região em que reside este sistema de arquivos FSX for ONTAP.
+... *FSX for ONTAP Filesystem*: Selecione um sistema de arquivos FSX for ONTAP para usar com este projeto.
++
+Você só pode selecionar sistemas de arquivos configurados com um link. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Saiba mais sobre links"^].
+
+... *Escolha um volume*: Selecione um volume para armazenar o projeto; Builders usa esse volume como um repositório de software.
++
+Você só pode selecionar volumes configurados como um compartilhamento NFS.
+
+
+
+.. *Políticas de operação*: Forneça limites para clones do projeto:
++
+... *Retenção máxima em dias*: Insira o número máximo de dias que um clone deve ser mantido. Após esse número de dias, a fábrica de carga de trabalho remove o clone.
+... *Número máximo de clones por usuário ou grupo*: Insira o número máximo de clones que podem ser provisionados para um usuário ou grupo.
+... * Tamanho máximo de clone no GiB*: Insira o tamanho máximo no GiB de um clone de projeto.
+
+
+.. *Políticas de acesso*: Conceder explicitamente o acesso do projeto a usuários ou grupos específicos:
++
+... *Âmbito de aplicação da política*: Introduza endereços IP únicos ou intervalos de endereços IP para limitar o acesso do projeto apenas a esses endereços IP ou intervalos.
++
+Por exemplo: `172.16.0.0/24`
+
+... * Identificadores de usuário ou grupo*: Insira identificadores de usuário ou grupo para limitar o acesso do projeto apenas a esses usuários ou grupos.
++
+Por exemplo: `User1234`
+
+
+
+
+
+. Selecione *criar*.
+
+
+.Resultado
+O projeto é criado e aparece na lista de projetos na página Projetos.
+
+
+
+== Ver projetos existentes
+
+Você pode visualizar projetos existentes criados na fábrica de carga de trabalho do BlueXP  para construtores seguindo estas etapas.
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No mosaico Builders, selecione *ir para a página Projetos*.
+. Veja os projetos existentes listados na página Projetos.
+
+
+
+
+== Edite um projeto
+
+Você pode editar as configurações de um projeto a qualquer momento.
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No mosaico Builders, selecione *ir para a página Projetos*.
+. Na página Projetos, image:icon-action.png["o botão de opção"]selecione para o projeto que deseja editar.
+. Faça as alterações necessárias na configuração do projeto.
+. Selecione *Guardar*.
+
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No mosaico Builders, selecione *ir para a página Projetos*.
+. Na página Projetos, image:icon-action.png["o botão de opção"]selecione para o projeto que deseja fazer snapshot.
+. No menu resultante, selecione *criar um instantâneo*.
+. Na caixa de diálogo *criar instantâneo*, escolha um nome para o instantâneo e selecione *criar*.
+
+
+
+
+== Veja os espaços de trabalho de um projeto
+
+Um clone ou snapshot de um projeto é conhecido como uma área de trabalho. Quando você cria uma área de trabalho, ela é mantida enquanto a política de operação do projeto permitir. Você pode exibir espaços de trabalho existentes para um projeto seguindo estas etapas.
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No mosaico Builders, selecione *ir para a página Projetos*.
+. Na página Projetos, escolha um projeto e selecione *Exibir*.
+. Veja o status e os detalhes de todos os espaços de trabalho para este projeto.
+. Se você vir alertas ou avisos para uma área de trabalho, passe o Mouse sobre o ícone de alerta ou aviso para ver o motivo.
+
+
+
+
+== Excluir um projeto
+
+Você pode excluir um projeto quando ele não for mais necessário seguindo estas etapas.
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No mosaico Builders, selecione *ir para a página Projetos*.
+. Na página Projetos, image:icon-action.png["o botão de opção"]selecione para o projeto que deseja excluir.
+. Selecione *Eliminar*.
+. Na caixa de diálogo de confirmação, selecione *Delete*.
+
+
+.Resultado
+O projeto é excluído e qualquer código ou artefatos associados ao projeto são excluídos do volume. Snapshots e clones do projeto são retidos.

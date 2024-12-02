@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: create-workspaces.html 
+keywords: manage, workspace, snapshot, project 
+summary: Um espaço de trabalho na fábrica de cargas de trabalho do BlueXP  para construtores é uma representação Perforce de um projeto que é baseado em um snapshot do projeto. Você pode criar espaços de trabalho como parte de um projeto Builders. 
+---
+= Criar um espaço de trabalho
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Um espaço de trabalho na fábrica de cargas de trabalho do BlueXP  para construtores é uma representação permanente de um projeto em um momento específico no tempo. Os workspaces são criados usando um snapshot do projeto como base. Você pode criar novos espaços de trabalho dentro de um projeto Builders. Você pode criar espaços de trabalho a partir da IU do Perforce.
+
+.Antes de começar
+Certifique-se de que integrou o Builders com o Perforce Helix Visual Client. Consulte link:integrate-perforce.html["Integre construtores com Perforce"^] para obter mais informações.
+
+.Passos
+. Inicie sessão no Perforce.
+. No menu Perforce, selecione *View* > *WF*.
++
+A tela de login de fábrica da carga de trabalho é exibida na IU do Perforce.
+
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. Selecione *criar espaço de trabalho*.
+. Na página criar um projeto de área de trabalho, forneça o seguinte:
++
+.. Selecione um instantâneo a ser usado como base para o espaço de trabalho.
+.. Introduza um nome para a área de trabalho.
+.. Opcionalmente, insira um identificador de usuário para reivindicar o espaço de trabalho. Esse identificador deve corresponder ao ID de usuário do Perforce do desenvolvedor que usará essa área de trabalho.
+
+
+. Selecione *criar*.
+
+
+.Resultado
+A área de trabalho é criada e aparece na lista de espaços de trabalho na página espaços de trabalho.

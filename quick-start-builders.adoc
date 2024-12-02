@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: quick-start-builders.html 
+keywords: requirements, basic mode, read mode, automate mode 
+summary: Bancos de dados têm três modos diferentes que têm requisitos diferentes. 
+---
+= Início rápido para construtores
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Comece a criar um projeto Builders. Administradores e líderes de equipe podem usar o Builders para administrar projetos e espaços de trabalho para equipes de desenvolvedores.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Um"] Faça login na fábrica da carga de trabalho
+[role="quick-margin-para"]
+Você precisará https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["configure uma conta com a fábrica de carga de trabalho"^] fazer login usando um dos https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dois"] Adicione credenciais e permissões da AWS à sua conta
+[role="quick-margin-para"]
+Você pode usar a fábrica de carga de trabalho no modo _Basic_ sem adicionar credenciais para acessar sua conta da AWS. Adicionar credenciais da AWS à fábrica de carga de trabalho no modo _Read_ ou _Automate_ dá à sua conta de fábrica de carga de trabalho as permissões necessárias para criar e gerenciar sistemas de arquivos FSX for ONTAP e para implantar e gerenciar projetos Builders.
+
+[role="quick-margin-para"]
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Saiba como adicionar credenciais e permissões"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Três"] Configure seu ambiente para atender aos requisitos da Builders
+[role="quick-margin-para"]
+Você precisará de um sistema de arquivos FSX for ONTAP implantado e descoberto que contenha pelo menos um volume que tenha sido configurado como um compartilhamento NFS.
+
+[role="quick-margin-para"]
+link:requirements-builders.html["Saiba mais sobre os requisitos da Builders"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Quatro"] Integrar com outros serviços
+[role="quick-margin-para"]
+Integre o Builders com outros serviços, como um portal de serviços ou o Perforce Helix Core, usando a API REST de fábrica de carga de trabalho.
+
+[role="quick-margin-para"]
+link:integrate-perforce.html["Saiba como integrar construtores com Perforce"^].
+
+.O que vem a seguir
+Agora você pode link:manage-projects.html["crie um projeto"]fornecer gerenciamento rápido e eficiente de códigos e artefatos para equipes de desenvolvedores.

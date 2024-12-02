@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory' 
+summary: Saiba o que há de novo na fábrica de cargas de trabalho para bancos de dados. 
+---
+= O que há de novo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Saiba o que há de novo com a capacidade Builders da fábrica de carga de trabalho.
+
+
+
+== 1 de dezembro de 2024
+
+
+
+=== Builders Workload no lançamento inicial
+
+A fábrica de cargas de trabalho da BlueXP  para construtores simplifica o consumo e o acesso de versões de software, eliminando a necessidade de ferramentas ou scripts personalizados. Ele permite que você consuma versões de software como clones instantâneos integrados ao Perforce Helix Core como um espaço de trabalho conveniente para seus processos de desenvolvimento, economizando tempo e recursos.
+
+A versão inicial inclui a capacidade de gerenciar projetos e espaços de trabalho e automatizar ações com o Codebox. Você também pode integrar Builders com Perforce Helix Core, para que você possa gerenciar diferentes versões de cada projeto e alternar entre eles rapidamente.
