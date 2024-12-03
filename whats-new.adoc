@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory' 
 summary: Saiba o que há de novo na fábrica de cargas de trabalho para bancos de dados. 
 ---
-= O que há de novo
+= Novidades na fábrica de cargas de trabalho da BlueXP  para construtores
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

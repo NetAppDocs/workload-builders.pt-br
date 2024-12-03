@@ -281,26 +281,6 @@
   <block id="1f44141a0f383810dac8c932e0d76754" category="list-text">Você precisará considerar os pares de chave/valor de tag que deseja aplicar aos recursos da AWS que fazem parte dessa implantação (opcional).</block>
   <block id="d5858b81edfda50f75f7994c971764f0" category="inline-link">Saiba como implantar e gerenciar os sistemas de arquivos do FSX for ONTAP</block>
   <block id="7d57ea8255b8142e76fbb442ea9a782f" category="paragraph"><block ref="7d57ea8255b8142e76fbb442ea9a782f" category="inline-link-rx"></block></block>
-  <block id="284b0f618c1cefab43ce3a83c106ac42" category="summary">Reverter um clone de sandbox na fábrica de workloads para bancos de dados.</block>
-  <block id="ba981915546be1bb9a1a5f34021cb317" category="doc">Reverter um clone de sandbox na fábrica de workloads para bancos de dados</block>
-  <block id="119092644393b63350941f731f4e02dd" category="paragraph">Reverter um clone de banco de dados para sua versão original no momento da criação.</block>
-  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Sobre esta tarefa</block>
-  <block id="36bfe5aa9dbfbad068e6721ddea626bb" category="paragraph">Quando você clonar um banco de dados, o clone na criação é um clone _Baseline_. Os dados no banco de dados clonados são os mesmos que o banco de dados de origem no momento da criação. À medida que os dados em um clone de banco de dados sandbox mudam ao longo do tempo, você pode querer reverter os dados de volta para a linha de base quando o clone foi criado pela primeira vez. Esta operação é chamada re-baselining um clone. Re-baselining um clone em vez de criar um novo clone economiza espaço; no entanto, quaisquer alterações feitas no clone sandbox serão excluídas.</block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console de fábrica do workload</block>
-  <block id="2e600fc81eb21acd31aa44d1697dc84f" category="list-text">Inicie sessão no <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>.</block>
-  <block id="a22aeb541c430c47c35bcc20690ea51a" category="list-text">No bloco bancos de dados, selecione *ir para Inventário de bancos de dados*.</block>
-  <block id="a1029809e498e81eaada752a6b08cd7c" category="list-text">Em bancos de dados, selecione a guia *sandboxes*.</block>
-  <block id="e25b967c54d3008b230ffd4e18be90cb" category="list-text">Na guia sandboxes, clique no menu três pontos do clone sandbox que você deseja reverter.</block>
-  <block id="0975db7a2f5f2be54dab36d8b76af890" category="list-text">Selecione *Re-Baseline*.</block>
-  <block id="ee39d3157a6b84476b1e530c43e7e0af" category="list-text">Na caixa de diálogo Re-Baseline, clique em *Re-Baseline*.</block>
-  <block id="60662f13dd467742de00d5852483a73d" category="summary">Divida um clone de sandbox do banco de dados de origem para criar um novo banco de dados.</block>
-  <block id="5697f3fa0c3bfd3435b1268d395d044b" category="doc">Divida um clone de sandbox do banco de dados de origem</block>
-  <block id="7e63ac86d460cf0995a5ac132e4c8092" category="paragraph">Dividir um clone de sandbox de seu banco de dados de origem cria um novo banco de dados que consumirá uma certa quantidade de capacidade de armazenamento. O clone é excluído quando a divisão é concluída e o novo banco de dados aparece no Inventário.</block>
-  <block id="bad5772919d73bf3b17433524b58ead6" category="inline-link-macro">aumentar a capacidade do sistema de arquivos</block>
-  <block id="eed30e1e95c32e95da513640e3e7e215" category="paragraph">Considere a quantidade de capacidade de armazenamento necessária para o novo banco de dados. Se necessário, <block ref="ecf193ca0846a4137269dac878e92281" category="inline-link-macro-rx"></block> para o sistema de arquivos FSX for ONTAP antes de começar.</block>
-  <block id="be0c57159940db106da8c592b3a6f1a7" category="list-text">Na guia sandboxes, clique no menu três pontos do clone sandbox que você deseja dividir.</block>
-  <block id="54e2c4dd2b9e992b761540f131754e81" category="list-text">Selecione *Split*.</block>
-  <block id="05b751f4cbd4ae2611783e6ab193a961" category="list-text">Na caixa de diálogo dividir, clique em *dividir*.</block>
   <block id="056634bec4a153903ebb9b769277f4d7" category="summary">Antes de poder abrir um caso de suporte com o suporte técnico da NetApp, você precisa adicionar uma conta do site de suporte da NetApp à fábrica de carga de trabalho e, em seguida, Registrar-se para suporte.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registre-se para obter suporte</block>
   <block id="996ad73a480311d4f86d6946935389d2" category="paragraph">O Registro de suporte é necessário para receber suporte técnico específico para a Workload Factory e suas soluções e serviços de armazenamento. Você deve se Registrar para obter suporte a partir do console BlueXP , que é um console baseado na Web separado do Workload Factory.</block>
@@ -344,7 +324,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">O NetApp deve entrar em Contato com você durante esse processo. Este é um exercício de integração única para novos usuários.</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Depois de ter sua conta do site de suporte da NetApp, associe a conta ao login do BlueXP , executando as etapas em <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="b695d69d992cf41ed6cb2eae330d2d9a" category="summary">Saiba o que há de novo na fábrica de cargas de trabalho para bancos de dados.</block>
-  <block id="490414e0366b091220802d406e52c076" category="doc">O que há de novo</block>
   <block id="b3c5650c2bbe2cf7e9b39aa77519169b" category="paragraph">Saiba o que há de novo com a capacidade Builders da fábrica de carga de trabalho.</block>
   <block id="5c8df45cbe01191b205c30373b7e5739" category="section-title">1 de dezembro de 2024</block>
   <block id="77ecc188e3683ff647e9350cea980265" category="sidebar">Crie e gerencie projetos de desenvolvimento de software em cima do FSX for ONTAP armazenamento do sistema de arquivos na fábrica de carga de trabalho do BlueXP .</block>
@@ -360,4 +339,11 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">Requisitos</block>
   <block id="b3484ff5a2e6115fc61edc79c83f8c4c" category="sidebar">Use cargas de trabalho do Builders</block>
+  <block id="eea1c8722623804ecbfedb5877fe1fe0" category="doc">Automatize tarefas do Builders com o Codebox</block>
+  <block id="d9c7cb0c1a45fbc72de246fdddd7728b" category="doc">Crie um espaço de trabalho Builders</block>
+  <block id="15db2e3e50e69780a1a62157fd7d29fa" category="doc">Obtenha ajuda com Builders</block>
+  <block id="811bf57d4ae533110508a5fcc7be0276" category="doc">Limitações conhecidas da fábrica de carga de trabalho BlueXP  para construtores</block>
+  <block id="827e97c0eb67d11c51fdab3d7de7cc47" category="doc">Avisos legais para a fábrica de carga de trabalho da BlueXP  para construtores</block>
+  <block id="f326a729fb5b859cb51ee1e03ade5a34" category="doc">Registre-se para obter suporte para a fábrica de carga de trabalho BlueXP  para construtores</block>
+  <block id="4f2bbf87005596e383f28ae211c4bd94" category="doc">Novidades na fábrica de cargas de trabalho da BlueXP  para construtores</block>
 </blocks>
