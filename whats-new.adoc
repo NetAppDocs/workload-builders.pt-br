@@ -15,6 +15,16 @@ Saiba o que há de novo com a capacidade Builders da fábrica de carga de trabal
 
 
 
+== 4 de maio de 2025
+
+
+
+=== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.
+
+
+
 == 1 de dezembro de 2024
 
 

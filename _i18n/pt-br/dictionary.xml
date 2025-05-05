@@ -240,7 +240,6 @@
   <block id="113933a0a6b3eb57d22f707e6384bd49" category="paragraph">Você precisará<block ref="5eb9de2715b74ed434f03d8a9fef9b70" category="inline-link-rx"></block> fazer login usando um dos<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block>.</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Dois</block>
   <block id="b36a952e38561cb86fdb6a473044fce0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Adicione credenciais e permissões da AWS à sua conta</block>
-  <block id="6b2dd6734a7cf2cd8fa1690ca19ccd80" category="paragraph">Você pode usar a fábrica de carga de trabalho no modo _Basic_ sem adicionar credenciais para acessar sua conta da AWS. Adicionar credenciais da AWS à fábrica de carga de trabalho no modo _Read_ ou _Automate_ dá à sua conta de fábrica de carga de trabalho as permissões necessárias para criar e gerenciar sistemas de arquivos FSX for ONTAP e para implantar e gerenciar projetos Builders.</block>
   <block id="fb391f4cf6483b8b419032dc188bd9d8" category="inline-link">Saiba como adicionar credenciais e permissões</block>
   <block id="c01367c7ec78f01defe37cab59b14851" category="paragraph"><block ref="d162e97fcdf643050da77419fb18d12e" category="inline-link-rx"></block>.</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">Três</block>
@@ -260,9 +259,7 @@
   <block id="7860bfc83777aac923d73f1002162f9d" category="doc">Requisitos dos construtores</block>
   <block id="7881e5952d93ca1a1396ec11c08fa645" category="list-text">Login e conta de fábrica da carga de trabalho</block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="list-text">Credenciais e permissões da AWS</block>
-  <block id="2e9df4fc7da7ba6ad813c1450e8f82ca" category="list-text">Você precisa adicionar credenciais da AWS à fábrica de cargas de trabalho com permissões Automate, o que significa que você usará a fábrica de cargas de trabalho no modo _Automate_ para construtores.</block>
   <block id="5145374f219e1c177ab5588a5344aa6e" category="inline-link">Saiba como adicionar credenciais da AWS à fábrica de cargas de trabalho</block>
-  <block id="1b0cdac06552abc95fe86270037368b2" category="paragraph">As permissões do modo _Basic_ e do modo _Read_ não são suportadas neste momento. <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="e48bc5875c01dd007b7b2a370e879cde" category="list-text">FSX para sistema de arquivos ONTAP</block>
   <block id="c16810aa96ec44a060863610996db3f6" category="list-text">Você precisa de um mínimo de um sistema de arquivos FSX for ONTAP:</block>
   <block id="cf935c2a5823110e8a09c3289b67514a" category="list-text">O sistema de arquivos será usado pela Builders para armazenar os projetos e espaços de trabalho que você criar.</block>
@@ -350,4 +347,10 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidade NetApp</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP  blogs</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinars na nuvem</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">Terminologia de permissões atualizada</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.</block>
+  <block id="5df5d0c3be037db37091a51c0b7dd2a3" category="paragraph">Você pode usar a fábrica de carga de trabalho no modo _Basic_ sem adicionar credenciais para acessar sua conta da AWS. Adicionar credenciais da AWS à fábrica de carga de trabalho no modo _somente leitura_ ou _leitura/gravação_ dá à sua conta de fábrica de carga de trabalho as permissões necessárias para criar e gerenciar os sistemas de arquivos FSX for ONTAP e para implantar e gerenciar projetos Builders.</block>
+  <block id="98c15024a0a6463353585181f922a6d8" category="list-text">Você precisa adicionar credenciais da AWS à fábrica de carga de trabalho com permissões de leitura/gravação, o que significa que você usará a fábrica de carga de trabalho no modo _leitura/gravação_ para construtores.</block>
+  <block id="19e72e9857cc00ad57d29107d2e5f1fb" category="paragraph">As permissões do modo _Basic_ e do modo _Read-Only_ não são suportadas neste momento. <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
+  <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">4 de maio de 2025</block>
 </blocks>
