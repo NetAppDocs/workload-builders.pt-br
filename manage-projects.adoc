@@ -93,14 +93,6 @@ Você pode editar as configurações de um projeto a qualquer momento.
 . Selecione *Guardar*.
 
 
-.Passos
-. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
-. No mosaico Builders, selecione *ir para a página Projetos*.
-. Na página Projetos, image:icon-action.png["o botão de opção"]selecione para o projeto que deseja fazer snapshot.
-. No menu resultante, selecione *criar um instantâneo*.
-. Na caixa de diálogo *criar instantâneo*, escolha um nome para o instantâneo e selecione *criar*.
-
-
 
 
 == Veja os espaços de trabalho de um projeto
