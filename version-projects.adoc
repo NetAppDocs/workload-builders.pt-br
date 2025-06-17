@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: version-projects.html 
+keywords: snapshot, clone, project, protect, API, version, versions, versioning 
+summary: Gerencie versões dos seus projetos do Builders usando snapshots e clones. 
+---
+= Gerenciar versões da fábrica de carga de trabalho BlueXP para projetos do Builders
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Trabalhe com diferentes versões dos seus projetos do Builders criando snapshots e clones sob demanda diretamente da fábrica de carga de trabalho. Snapshots e clones de um projeto são armazenados no sistema de arquivos que estava associado ao projeto quando ele foi criado. Você também pode gerenciar snapshots e clones usando o  https://console.workloads.netapp.com/api-doc["API REST da fábrica de carga de trabalho"^] .
+
+
+
+== Crie um instantâneo de um projeto
+
+Você pode criar um instantâneo de um projeto seguindo estas etapas.
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No mosaico Builders, selecione *ir para a página Projetos*.
+. Na página Projetos, image:icon-action.png["o botão de opção"]selecione para o projeto que deseja fazer snapshot.
+. No menu resultante, selecione *criar um instantâneo*.
+. Na caixa de diálogo *criar instantâneo*, escolha um nome para o instantâneo e selecione *criar*.
+
+
+
+
+== Criar um clone de um projeto
+
+Clone um projeto do Builders a partir de um snapshot seguindo estes passos. Ao criar um clone, um novo volume editável é criado para contê-lo.
+
+.Passos
+. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. No mosaico Builders, selecione *ir para a página Projetos*.
+. Na página Projetos, selecione image:icon-action.png["o botão de opção"] para o projeto que você deseja clonar.
+. No menu resultante, selecione *Criar um clone*.
+. Na caixa de diálogo *Criar clone*, faça o seguinte:
++
+.. Digite um nome para o clone.
++
+O nome padrão do clone é o nome do projeto com um sufixo da data e hora atuais.
+
+.. Selecione um instantâneo para usar como base para o clone.
+.. Selecione *criar*.
+
+
+
+
+.Resultado
+A fábrica de carga de trabalho cria um novo clone do projeto, e o clone aparece como um novo projeto na página Projetos.
