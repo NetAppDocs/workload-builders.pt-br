@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements-builders.html 
 keywords: Builders, FSx, project, projects 
-summary: Certifique-se de que a fábrica de carga de trabalho e a AWS estejam configuradas corretamente antes de começar a usar a fábrica de carga de trabalho do BlueXP  para construtores. Isso inclui ter suas credenciais de login na AWS, um sistema de arquivos FSX for ONTAP implantado e muito mais. 
+summary: Certifique-se de que o Workload Factory e o AWS estejam configurados corretamente antes de começar a usar o NetApp Workload Factory for Builders.  Isso inclui ter suas credenciais de login da AWS, um FSx implantado para o sistema de arquivos ONTAP e muito mais. 
 ---
 = Requisitos dos construtores
 :allow-uri-read: 
@@ -11,13 +11,13 @@ summary: Certifique-se de que a fábrica de carga de trabalho e a AWS estejam co
 
 
 [role="lead"]
-Certifique-se de que a fábrica de carga de trabalho e a AWS estejam configuradas corretamente antes de começar a usar a fábrica de carga de trabalho do BlueXP  para construtores. Isso inclui ter suas credenciais de login na AWS, um sistema de arquivos FSX for ONTAP implantado e muito mais.
+Certifique-se de que o Workload Factory e o AWS estejam configurados corretamente antes de começar a usar o NetApp Workload Factory for Builders.  Isso inclui ter suas credenciais de login da AWS, um FSx implantado para o sistema de arquivos ONTAP e muito mais.
 
-Login e conta de fábrica da carga de trabalho:: Você precisará https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["configure uma conta com a fábrica de carga de trabalho"^] fazer login usando um dos https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+Login e conta de fábrica da carga de trabalho:: Você precisará https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["crie uma conta no Workload Factory"^] e faça login usando um dos https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^] .
 Credenciais e permissões da AWS:: Você precisa adicionar credenciais da AWS ao Workload Factory com permissões de leitura/gravação, o que significa que você usará o Workload Factory no modo _leitura/gravação_ para Builders.
 
 
-As permissões dos modos _básico_ e _somente leitura_ não são suportadas no momento. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Saiba como adicionar credenciais da AWS à fábrica de cargas de trabalho"^]
+As permissões de modo _básico_ e modo _somente leitura_ não são suportadas no momento.https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aprenda como adicionar credenciais da AWS ao Workload Factory"^]
 
 FSX para sistema de arquivos ONTAP:: Você precisa de um mínimo de um sistema de arquivos FSX for ONTAP:
 +

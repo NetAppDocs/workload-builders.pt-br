@@ -11,6 +11,6 @@ summary: Você pode automatizar a implantação de host, a criação de banco de
 
 
 [role="lead"]
-Você pode automatizar a criação de projetos e as operações de proteção de dados com o Codebox. Codebox é um copiloto de infraestrutura como código (IAC) que ajuda a gerar código para executar qualquer operação suportada pela fábrica de carga de trabalho.
+Você pode automatizar a criação de projetos e as operações de proteção de dados com o Codebox.  O Codebox é um copiloto de infraestrutura como código (IaC) que ajuda você a gerar código para executar qualquer operação suportada pelo Workload Factory.
 
 Saiba mais sobre link:https://docs.netapp.com/us-en/workload-setup-admin/codebox-automation.html["Automação Codebox"^] e como usá-lo.

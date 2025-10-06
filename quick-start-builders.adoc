@@ -13,13 +13,13 @@ summary: Bancos de dados têm três modos diferentes que têm requisitos diferen
 [role="lead"]
 Comece a criar um projeto Builders. Administradores e líderes de equipe podem usar o Builders para administrar projetos e espaços de trabalho para equipes de desenvolvedores.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Um"] Faça login na fábrica da carga de trabalho
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Um"]Efetue login no Workload Factory
 [role="quick-margin-para"]
-Você precisará https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["configure uma conta com a fábrica de carga de trabalho"^] fazer login usando um dos https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+Você precisará https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["crie uma conta no Workload Factory"^] e faça login usando um dos https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^] .
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dois"] Adicione credenciais e permissões da AWS à sua conta
 [role="quick-margin-para"]
-Você pode usar a fábrica de carga de trabalho no modo _Basic_ sem adicionar credenciais para acessar sua conta da AWS. Adicionar credenciais da AWS ao workload factory no modo _somente leitura_ ou _leitura/gravação_ fornece à sua conta do workload factory as permissões necessárias para criar e gerenciar sistemas de arquivos FSx for ONTAP e para implantar e gerenciar projetos do Builders.
+Você pode usar o Workload Factory no modo _Básico_ sem adicionar credenciais para acessar sua conta da AWS.  Adicionar credenciais da AWS ao Workload Factory no modo _somente leitura_ ou _leitura/gravação_ fornece à sua conta do Workload Factory as permissões necessárias para criar e gerenciar sistemas de arquivos FSx para ONTAP e para implantar e gerenciar projetos do Builders.
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Saiba como adicionar credenciais e permissões"^].

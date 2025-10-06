@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: manage-projects.html 
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
-summary: Gerencie instâncias do Microsoft SQL Server na fábrica de cargas de trabalho para bancos de dados. 
+summary: Gerencie instâncias do Microsoft SQL Server no Workload Factory for Databases. 
 ---
 = Gerencie projetos Builders
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Gerencie instâncias do Microsoft SQL Server na fábrica de cargas de t
 
 
 [role="lead"]
-Você pode gerenciar projetos de construtores para controlar como seu código e artefatos são gerenciados para cada projeto na fábrica de carga de trabalho do BlueXP  para construtores.
+Você pode gerenciar projetos do Builders para controlar como seu código e artefatos são gerenciados para cada projeto no NetApp Workload Factory for Builders.
 
 
 
@@ -20,7 +20,7 @@ Você pode gerenciar projetos de construtores para controlar como seu código e 
 Você pode criar um novo projeto Builders para que você possa aproveitar os recursos de proteção de dados do seu sistema de arquivos do Amazon FSX for NetApp ONTAP para seu código e artefatos.
 
 .Passos
-. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. Faça login no Workload Factory usando um doslink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^] .
 . No bloco Builders, selecione *Create project*.
 . Na página criar projeto, forneça o seguinte:
 +
@@ -42,7 +42,7 @@ Você só pode selecionar volumes configurados como um compartilhamento NFS.
 
 .. *Políticas de operação*: Forneça limites para clones do projeto:
 +
-... *Retenção máxima em dias*: Insira o número máximo de dias que um clone deve ser mantido. Após esse número de dias, a fábrica de carga de trabalho remove o clone.
+... *Retenção máxima em dias*: insira o número máximo de dias que um clone deve ser retido.  Após esse número de dias, o Workload Factory remove o clone.
 ... *Número máximo de clones por usuário ou grupo*: Insira o número máximo de clones que podem ser provisionados para um usuário ou grupo.
 ... * Tamanho máximo de clone no GiB*: Insira o tamanho máximo no GiB de um clone de projeto.
 
@@ -71,10 +71,10 @@ O projeto é criado e aparece na lista de projetos na página Projetos.
 
 == Ver projetos existentes
 
-Você pode visualizar projetos existentes criados na fábrica de carga de trabalho do BlueXP  para construtores seguindo estas etapas.
+Você pode visualizar projetos existentes criados no NetApp Workload Factory for Builders seguindo estas etapas.
 
 .Passos
-. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. Faça login no Workload Factory usando um doslink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^] .
 . No mosaico Builders, selecione *ir para a página Projetos*.
 . Veja os projetos existentes listados na página Projetos.
 
@@ -86,7 +86,7 @@ Você pode visualizar projetos existentes criados na fábrica de carga de trabal
 Você pode editar as configurações de um projeto a qualquer momento.
 
 .Passos
-. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. Faça login no Workload Factory usando um doslink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^] .
 . No mosaico Builders, selecione *ir para a página Projetos*.
 . Na página Projetos, image:icon-action.png["o botão de opção"]selecione para o projeto que deseja editar.
 . Faça as alterações necessárias na configuração do projeto.
@@ -100,7 +100,7 @@ Você pode editar as configurações de um projeto a qualquer momento.
 Um clone ou snapshot de um projeto é conhecido como uma área de trabalho. Quando você cria uma área de trabalho, ela é mantida enquanto a política de operação do projeto permitir. Você pode exibir espaços de trabalho existentes para um projeto seguindo estas etapas.
 
 .Passos
-. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. Faça login no Workload Factory usando um doslink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^] .
 . No mosaico Builders, selecione *ir para a página Projetos*.
 . Na página Projetos, escolha um projeto e selecione *Exibir*.
 . Veja o status e os detalhes de todos os espaços de trabalho para este projeto.
@@ -114,7 +114,7 @@ Um clone ou snapshot de um projeto é conhecido como uma área de trabalho. Quan
 Você pode excluir um projeto quando ele não for mais necessário seguindo estas etapas.
 
 .Passos
-. Efetue login na fábrica da carga de trabalho usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. Faça login no Workload Factory usando um doslink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^] .
 . No mosaico Builders, selecione *ir para a página Projetos*.
 . Na página Projetos, image:icon-action.png["o botão de opção"]selecione para o projeto que deseja excluir.
 . Selecione *Eliminar*.

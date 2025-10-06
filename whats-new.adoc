@@ -1,17 +1,27 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory' 
-summary: Saiba o que há de novo na fábrica de cargas de trabalho para bancos de dados. 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, Workload Factory, builders, Workload Factory' 
+summary: Saiba o que há de novo no Workload Factory for Databases. 
 ---
-= Novidades na fábrica de cargas de trabalho da BlueXP  para construtores
+= Novidades do NetApp Workload Factory para construtores
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Saiba o que há de novo com a capacidade Builders da fábrica de carga de trabalho.
+Saiba o que há de novo com o recurso Builders do Workload Factory.
+
+
+
+== 5 de outubro de 2025
+
+
+
+=== BlueXP workload factory agora NetApp Workload Factory
+
+O BlueXP foi renomeado e redesenhado para refletir melhor o papel que ele tem no gerenciamento da sua infraestrutura de dados.  Como resultado, a BlueXP workload factory foi renomeada para NetApp Workload Factory.
 
 
 
@@ -21,9 +31,9 @@ Saiba o que há de novo com a capacidade Builders da fábrica de carga de trabal
 
 === Suporte a clones
 
-Agora você pode clonar um projeto no BlueXP Workload Factory para Builders. Ao clonar um projeto, o Builders cria um novo projeto a partir de um snapshot, com a mesma configuração do original. A clonagem é útil para criar projetos semelhantes rapidamente ou para fins de teste. Você pode montar o novo clone do projeto seguindo as instruções no Builders.
+Agora você pode clonar um projeto no BlueXP Workload Factory for Builders.  Quando você clona um projeto, o Builders cria um novo projeto a partir de um instantâneo, com a mesma configuração do original.  A clonagem é útil para criar rapidamente projetos semelhantes ou para fins de teste.  Você pode montar o novo clone do projeto seguindo as instruções em Builders.
 
-https://docs.netapp.com/us-en/workload-builders/version-projects.html["Gerenciar versões da fábrica de carga de trabalho BlueXP para projetos do Builders"]
+https://docs.netapp.com/us-en/workload-builders/version-projects.html["Gerenciar versões do BlueXP Workload Factory para projetos do Builders"]
 
 
 
@@ -43,6 +53,6 @@ A interface do usuário e a documentação do Workload Factory agora usam "somen
 
 === Builders Workload no lançamento inicial
 
-A fábrica de cargas de trabalho da BlueXP  para construtores simplifica o consumo e o acesso de versões de software, eliminando a necessidade de ferramentas ou scripts personalizados. Ele permite que você consuma versões de software como clones instantâneos integrados ao Perforce Helix Core como um espaço de trabalho conveniente para seus processos de desenvolvimento, economizando tempo e recursos.
+O BlueXP Workload Factory for Builders simplifica o consumo e o acesso às versões do software, eliminando a necessidade de ferramentas ou scripts personalizados.  Ele permite que você consuma versões de software como clones instantâneos integrados ao Perforce Helix Core como um espaço de trabalho conveniente para seus processos de desenvolvimento, economizando tempo e recursos.
 
 A versão inicial inclui a capacidade de gerenciar projetos e espaços de trabalho e automatizar ações com o Codebox. Você também pode integrar Builders com Perforce Helix Core, para que você possa gerenciar diferentes versões de cada projeto e alternar entre eles rapidamente.
