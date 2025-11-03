@@ -100,8 +100,6 @@
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">Limitações conhecidas</block>
   <block id="406b6743d6cb27b667d9600f28f51fe8" category="section-title">Permissões do operador necessárias</block>
-  <block id="acf699fcbcfc00b42704c6549f7573ef" category="paragraph">Com Builders, você pode facilmente criar um projeto e atribuir um volume que representa seu ambiente de software e seus artefatos. À medida que você atualiza seu software, você pode tirar snapshots do volume, capturando o estado do seu software naquele momento. Isso significa que você pode acessar qualquer versão do seu software instantaneamente sem a necessidade de ressincronizar com o sistema de controle de versão, economizando tempo e recursos valiosos.</block>
-  <block id="69ced5671d5d5173c5ec8a09c78e6c22" category="paragraph">Ao aproveitar os recursos de snapshot e clone do ONTAP, o Builders aprimora seu fluxo de trabalho de desenvolvimento, permitindo acesso rápido a várias versões do seu software, acelerando os ciclos de desenvolvimento e ajudando a reduzir o tempo de comercialização.</block>
   <block id="81271ea88c556e646a83ae8cb6874621" category="list-text">Crie, edite e remova projetos</block>
   <block id="235bfdfadd266ee4aaf8ed4ef7af3c9c" category="list-text">Criar instantâneos de versões de software definidas</block>
   <block id="2b1f12fc65d9945253b8cdbd567854de" category="list-text">Criar e excluir espaços de trabalho (com base em clones)</block>
@@ -124,7 +122,6 @@
   <block id="ecd96786b112acf6970d6aaf3be575ca" category="list-text">Nuvem secreta</block>
   <block id="151ef168e17772f7a361db78a0c86552" category="list-text">Top nuvem secreta</block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">Obter ajuda</block>
-  <block id="da444b283df699667b2316206972bdfe" category="paragraph">O Amazon FSX for NetApp ONTAP é uma solução exclusiva da AWS. Para dúvidas ou problemas de suporte técnico associados ao ONTAP sistema de arquivos, infraestrutura ou qualquer solução usando este serviço, use a Central de suporte no Console de Gerenciamento da AWS para abrir um caso de suporte com a AWS. Selecione o serviço "FSX for ONTAP" e a categoria apropriada. Forneça as informações restantes necessárias para criar seu caso de suporte da AWS.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Direitos de autor</block>
@@ -195,7 +192,6 @@
   <block id="0a900739ea1484f6a212a7ceda0d619c" category="paragraph">Comece a criar um projeto Builders. Administradores e líderes de equipe podem usar o Builders para administrar projetos e espaços de trabalho para equipes de desenvolvedores.</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Um</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Dois</block>
-  <block id="b36a952e38561cb86fdb6a473044fce0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Adicione credenciais e permissões da AWS à sua conta</block>
   <block id="fb391f4cf6483b8b419032dc188bd9d8" category="inline-link">Saiba como adicionar credenciais e permissões</block>
   <block id="c01367c7ec78f01defe37cab59b14851" category="paragraph"><block ref="d162e97fcdf643050da77419fb18d12e" category="inline-link-rx"></block>.</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">Três</block>
@@ -322,15 +318,10 @@
   <block id="81e8f46d6546f377175fe2f737bc744f" category="doc">Saiba mais sobre o NetApp Workload Factory para construtores</block>
   <block id="3c75100296ff980a8a9dbbe03f1992fc" category="paragraph">O NetApp Workload Factory for Builders é uma ferramenta de criação rápida de ambientes de construção para desenvolvedores de software.  Ele permite a configuração rápida de ambientes de desenvolvimento pessoal, economizando tempo e permitindo o autoatendimento para desenvolvedores, ao mesmo tempo em que capacita as equipes de DevOps a manter o controle da infraestrutura.  Usando o Builders, os desenvolvedores de software podem criar rapidamente espaços de trabalho sem precisar de armazenamento de dados especializado ou compreensão da infraestrutura de desenvolvimento.</block>
   <block id="153a8608fc8130abbd02de118db1d3cc" category="section-title">O que é o NetApp Workload Factory para construtores?</block>
-  <block id="b009b63050a2b4c75e03880e29d11e0b" category="paragraph">O NetApp Workload Factory for Builders foi projetado para simplificar a maneira como os desenvolvedores gerenciam e interagem com diferentes versões de seus softwares.  O Builders integra-se perfeitamente ao Perforce Helix Core para fornecer clones instantâneos de versões de software, criando espaços de trabalho prontos para uso para processos de desenvolvimento, controle de qualidade e CI/CD.</block>
   <block id="6ae8e58cb52cd45b321927bcb2961f4e" category="inline-link-macro">Visão geral da Workload Factory</block>
   <block id="1de2994a7e96b0f9f5ffc5fbf74c7cfe" category="paragraph">Para obter mais informações sobre o Workload Factory, consulte o<block ref="74c54dbaee345ad32db577029257fe31" category="inline-link-macro-rx"></block> .</block>
   <block id="719c5a37d6697e474752aba28ee7ce33" category="section-title">Recursos do NetApp Workload Factory para construtores</block>
   <block id="f72ab1f76edac09b9e379212920d4a01" category="paragraph">O NetApp Workload Factory for Builders oferece os seguintes recursos:</block>
-  <block id="4f7eefbe2de22aca4f898d56772c8c9f" category="section-title">Modos operacionais na Workload Factory</block>
-  <block id="7b3be34e841ef7654765950b44c0736d" category="paragraph">Três modos operacionais diferentes — _básico_, _somente leitura_ e _leitura/gravação_ — oferecem opções flexíveis para implantação dentro e fora do Workload Factory.  Obtenha valor imediato em confiança zero no modo _básico_ com trechos de código para uso fora do Workload Factory.  Obtenha valor incremental com confiança incremental nos modos _somente leitura_ e _leitura/gravação_.</block>
-  <block id="d7df29879844d570a3e64b343a7227e2" category="inline-link-macro">modos operacionais na Workload Factory</block>
-  <block id="dde084f0d745ae579f63b79d128d3cac" category="paragraph">Saiba mais sobre <block ref="006fa329b97a0e61c793bc816f297534" category="inline-link-macro-rx"></block> .</block>
   <block id="5354d1e9ecaabd928d4235d17bb92d9e" category="section-title">Automação com Workload Factory Codebox</block>
   <block id="3b9355b880979c4a10f7d88ded288364" category="list-text">*Copiloto de infraestrutura como código*: o Codebox é um copiloto de infraestrutura como código (IaC) que ajuda desenvolvedores e DevOps a gerar código para executar qualquer operação suportada pelo Workload Factory.</block>
   <block id="889974e6a14e5a88ffedb993211543f6" category="paragraph">Não há custo para usar o recurso Builders do Workload Factory.</block>
@@ -348,11 +339,9 @@
   <block id="3d784fb83da69a092542ad97e84229a1" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>Efetue login no Workload Factory</block>
   <block id="e3f4d5b3a0d16b68c0f95c7031bbab0f" category="inline-link">crie uma conta no Workload Factory</block>
   <block id="8af94ef3a55ab31e78f60c3968ecc4e3" category="paragraph">Você precisará<block ref="c1e10d5d77d21feb199911d5a4450d55" category="inline-link-rx"></block> e faça login usando um dos<block ref="17b71e2884d56fdbadfe752689dbd4d6" category="inline-link-rx"></block> .</block>
-  <block id="5c8aebe77d27a4b2987620fd2f1b4d55" category="paragraph">Você pode usar o Workload Factory no modo _Básico_ sem adicionar credenciais para acessar sua conta da AWS.  Adicionar credenciais da AWS ao Workload Factory no modo _somente leitura_ ou _leitura/gravação_ fornece à sua conta do Workload Factory as permissões necessárias para criar e gerenciar sistemas de arquivos FSx para ONTAP e para implantar e gerenciar projetos do Builders.</block>
   <block id="4fda2760a0269084f9489aed28ac5218" category="summary">Certifique-se de que o Workload Factory e o AWS estejam configurados corretamente antes de começar a usar o NetApp Workload Factory for Builders.  Isso inclui ter suas credenciais de login da AWS, um FSx implantado para o sistema de arquivos ONTAP e muito mais.</block>
   <block id="b036e8f8a9cdb0687eaed2951caa878b" category="list-text">Você precisa adicionar credenciais da AWS ao Workload Factory com permissões de leitura/gravação, o que significa que você usará o Workload Factory no modo _leitura/gravação_ para Builders.</block>
   <block id="b6358992bb0152c2af9f3e2e315ef468" category="inline-link">Aprenda como adicionar credenciais da AWS ao Workload Factory</block>
-  <block id="1d987effbb1b43fd5943601ad335d806" category="paragraph">As permissões de modo _básico_ e modo _somente leitura_ não são suportadas no momento.<block ref="83106366073f0e7e6a64705516568b5d" category="inline-link-rx"></block></block>
   <block id="b334128403ed60ff931947907046e1f0" category="summary">Antes de abrir um caso de suporte com o suporte técnico da NetApp , você precisa adicionar uma conta do Site de Suporte da NetApp ao Workload Factory e então se registrar para obter suporte.</block>
   <block id="42ae904dea03b603a09c8cbc59f1d93d" category="doc">Registre-se para obter suporte para o NetApp Workload Factory for Builders</block>
   <block id="3d9b602ae77ac6a4951ca31b05b6b54f" category="paragraph">O registro de suporte é necessário para receber suporte técnico específico para o NetApp Workload Factory e suas soluções e serviços de armazenamento. Você deve se registrar para obter suporte no NetApp Console, que é um console baseado na Web separado do Workload Factory.</block>
@@ -378,4 +367,15 @@
   <block id="f44b610593adc80df8e04e489ec0c9ff" category="sidebar">Documentação do NetApp Workload Factory para construtores</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">Console NetApp</block>
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">Serviços de dados NetApp</block>
+  <block id="a355125c831ed4faa01bd3bc2f468d05" category="paragraph">O NetApp Workload Factory for Builders foi projetado para simplificar a maneira como os desenvolvedores gerenciam e interagem com diferentes versões de seus softwares. O Builders funciona com o Perforce Helix Core para clonar instantaneamente versões de software e criar espaços de trabalho para desenvolvimento, controle de qualidade e CI/CD.</block>
+  <block id="74902a1e35d38eec202f55325c1f00e2" category="paragraph">Com o Builders, você pode facilmente criar um projeto e atribuir um volume que represente seu ambiente de software e seus artefatos. Ao atualizar seu software, você pode tirar instantâneos do volume, capturando o estado do seu software naquele momento. Você pode acessar qualquer versão de software instantaneamente, sem precisar resincronizar, economizando tempo e recursos.</block>
+  <block id="3c0111088732d1b39780b4028c4cfb7a" category="paragraph">Utilizando os recursos de snapshot e clonagem do NetApp ONTAP, o Builders permite acessar diferentes versões do seu software mais rapidamente, para que você possa desenvolver e lançar atualizações com maior agilidade.</block>
+  <block id="d63f6bd7594c764e42de13a94ad6deed" category="paragraph">O Amazon FSx for NetApp ONTAP é uma solução própria da AWS. Para obter suporte, use a Central de Suporte no seu Console de Gerenciamento da AWS para abrir um chamado. Selecione "FSx para ONTAP" e a categoria, depois forneça as informações necessárias.</block>
+  <block id="27c19be9febabd1e2fb82d7a39784f2d" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>Adicionar credenciais e permissões</block>
+  <block id="1a2a34271660d68479742e2088763ce9" category="paragraph">Escolha as políticas de permissão que melhor atendam às suas necessidades.</block>
+  <block id="08e433eed9c7b8191b8a18059e64ecd2" category="paragraph">Se optar por não conceder permissões, você poderá começar a usar o Workload Factory for Builders para copiar exemplos de código parcialmente concluídos.</block>
+  <block id="6218b2b818684ae90ec93f3106368355" category="paragraph">Se optar por conceder permissões, você precisará adicionar manualmente as credenciais a uma conta, o que inclui selecionar as funcionalidades da carga de trabalho, como Builders e AI, e criar as políticas do IAM para as permissões necessárias.</block>
+  <block id="513ddb41a234bd3020d5233349d41978" category="paragraph">Certifique-se de que o Workload Factory e a AWS estejam configurados corretamente antes de usar o NetApp Workload Factory for Builders. Isso inclui ter suas credenciais de login da AWS, um sistema de arquivos FSx for ONTAP implantado e muito mais.</block>
+  <block id="c45d86a4185cef0bc3cadb7e6e9b46f4" category="paragraph">As permissões de modo _básico_ e modo _somente leitura_ não são suportadas no momento.</block>
+  <block id="83106366073f0e7e6a64705516568b5d" category="paragraph"><block ref="83106366073f0e7e6a64705516568b5d" category="inline-link-rx"></block></block>
 </blocks>
